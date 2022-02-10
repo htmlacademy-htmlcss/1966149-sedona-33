@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Каталог</title>
+  </head>
+  <body>
+    <header class="page-header">
+        <a class="page-header-logo" href="index.html">
+            <img class="page-header-logo" src="" alt="Логотип городка Седона">
+        </a>
+    <nav class="navigation">
+    <ul class="navigation-list">
+        <li class="navigation-item">
+            <a class="navigation-link" href="index.html">Главная</a>
+        </li>
+        <li class="navigation-item">
+            <a class="navigation-link" href="info.html">О Седоне</a>
+        </li>
+        <li class="navigation-item">
+        <a class="navigation-link navigation-link-current" href="catalog.html">Гостиницы</a>
+        </li>
+    </ul>
+    </nav>
+        <section class="navigation-list">
+                <a class="navigation-list-link" href="#"><span class="visually-hidden">
+                Поиск</span>
+                <img class="navigation-list-link-img" src="" alt="search">
+                </a>
+                <a class="navigation-list-link" href="#"><span class="visually-hidden">
+                Избранное</span>
+                <img class="navigation-list-link-img" src="" alt="favorite">
+                </a>
+        <a href="#" class="button">Хочу сюда!</a>
+    </section>   
+    </header>
+    <main class="main-inner">
+        <header class="inner-header">
+            <h1 class="inner-header-title">Гостиницы Седоны</h1>
+
+            <div class="breadcrumbs">          
+                <img class="breadcrumbs-item-icon" src="" alt="Иконка домик">
+                <img class="breadcrumbs-item-icon" src="" alt="Иконка стрелочка">
+                <a class="breadcrumbs-link" href="#">Гостиницы</a>
+            </div>
+          </header>
+         
+          <div class="catalog-hotels">
+            <h2 class="catalog-hotels-filters">Инфраструктура:</h2>  
+            <ul><label class="control"><input class="control-input" type="checkbox" name="pool" checked>Бассейн</label>
+            </ul>
+            <ul><label class="control"><input class="control-input" type="checkbox" name="parking" checked>Парковка</label>
+            </ul>
+            <ul><label class="control"><input class="control-input" type="checkbox" name="internet">Wi-Fi</label>
+            </ul>   
+          </div>
+          
+          <div class="catalog-hotels">
+            <h2 class="catalog-hotels-filters">Тип жилья:</h2>  
+            <ul><label class="control"><input class="control-input" type="radio" name="hotel" value="hotel" checked>Гостиница</label>
+            </ul>
+            <ul><label class="control"><input class="control-input" type="radio" name="motel">Мотель</label>
+            </ul>
+            <ul><label class="control"><input class="control-input" type="radio" name="apartments">Апартаменты</label>
+            </ul>   
+          </div>
+        
+          <div class="catalog-hotels">
+            <h2 class="catalog-hotels-filters">Стоимость, Р:</h2>   
+          </div>
+          <button class="button" type="submit">Применить</button>
+          <button class="button" type="submit">Сбросить</button>
+
+          <section>
+            <h3 class="catalog-search">Найдено гостиниц: 38</h3>
+                <select class="select-control" aria-label="Сортировка">
+                  <option value="popular">Сначала дешевые</option>
+                  <option value="cheap">Сначала дорогие</option>
+                  <option value="expensive">Популярные</option>
+                </select>
+          </section>
+
+
+          <section class="e-mail-container">
+            <article class="e-mail-text">
+                <p class="e-mail-title">ПОДПИШИТЕСЬ НА РАССЫЛКУ</p>
+                <p class="e-mail-description">Только полезная информация и никакого спама,честное бойскаутское!</p>
+                <input type="text" name="e-mail" value="Ваш e-mail">
+                <input type="submit" value="Подписаться!">
+            </article>    
+        </section>     
+    </main>
+  </body>
+  
+  <footer class="page-footer">
+    <section class="footer-social">
+        <h4 class="page-footer-title"><span class="visually-hidden">Социальные сети</span></h4>
+        <ul>
+        <li>
+            <a href="https://twitter.com/htmlacademy_ru"><img src="images/twitter.jpeg" class="icon-style" alt="Twitter icon"></a>
+            <a href="https://www.facebook.com/htmlacademy"><img src="images/facebook.jpeg" class="icon-style" alt="facebook icon"></a>
+            <a href="https://www.youtube.com/c/HTMLAcademyRUS"><img src="images/youtube.jpeg" class="icon-style" alt="youtube icon"></a>
+        </li>
+        </ul>
+    </section>
+    <section class="footer-contacts">
+        <h4 class="visually-hidden">Контакты</h4>
+        <a href="tel:+7(495) 666-02-66">+7 (812) 812-12-12</a>
+     
+      </section>
+      <section class="footer-Logo-HTML-ACADEMY">
+        <h4 class="visually-hidden">Сайт разработчика</h4>
+        <a href="https://htmlacademy.ru"><img src="Logo-HTML-ACADEMY.jpeg" alt="Логотип разработчика">
+        </a>
+      </section>  
+</footer>
+</html>
