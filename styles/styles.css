@@ -76,7 +76,7 @@ body {
   font-size: 24px;
   line-height: 28px;
 }
-.advantages-number advantages-description {
+.advantages-number, advantages-description {
   text-align: center;
   font-size: 18px;
   line-height: 21px;
