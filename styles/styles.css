@@ -40,7 +40,8 @@
         text-decoration: none;
         }
         .containar-welcome {
-        background-color: #e4eaee;
+        background-color: #e4eaee; /* намеренно поставила этот цвет фона, т.к. пока разбираюсь 
+        хотелось бы видеть, что меняется. background-color: #81B3D3 - это верный*/
         background-image: url("images/index/background-1.jpg");
         text-align: center;
         background-size: 100% auto;
@@ -92,6 +93,7 @@
         font-size: 22px;
         line-height: 26px; 
         }
+        /* фон не по макету, т.к. надо видеть, что пишу. по макету background-color:#83B3D3; кажется)))*/
         .e-mail-container {
         color:#ffffff;
         background-color:#e4eaee;
@@ -107,6 +109,7 @@
         line-height: 36px;
         font-weight: 700; 
         text-transform: uppercase;
+        text-decoration: none;
        }
        .footer-contacts {
         color:#000000;
@@ -119,7 +122,6 @@
         background-color: #3F5E72;
         background-image: url("images/catalog/background-1.jpg");
         text-decoration: none;
-        position: absolute;
        }        
        .containar-inner-title {
         font-size: 60px; 
@@ -146,5 +148,6 @@
        text-align: left;
        }
        .button {
-         
+        text-align: center; 
+        text-transform: uppercase; 
        }
