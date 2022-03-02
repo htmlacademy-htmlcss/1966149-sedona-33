@@ -73,15 +73,13 @@
         display: flex;
         width: 300px;
         margin: 0 auto;
-        margin-right:31px;
-        
-        
+        margin-right:31px; 
         }
         .main-container {
         flex-grow: 1;
         }
         .page-container {
-        background-image: url("images/index/background-1.jpg") no-repeat;
+        background-image: url("styles/images/index/background-1.jpg") no-repeat;
         width: 1200px;
         margin: 0 auto;
         }
@@ -181,14 +179,31 @@
         font-size: 22px;
         line-height: 26px; 
         }
-        /* фон не по макету, т.к. надо видеть, что пишу. по макету background-color:#83B3D3; кажется)))*/
         .e-mail-container {
-        background-image: url("images/index/background-2.jpg");
-        background-repeat: no-repeat;
-        background-position: center;
+        background-image: url("images/index/background-2.jpg") no-repeat;
+        width: 1200px;
+        background-color: #83B3D3;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        }
+        .e-mail-title {
+        font-size: 30px;
+        line-height: 36px;
+        font-weight: 700;
+        color:#ffffff;
+        background-color: #83B3D3;
+        
+        }
+        .e-mail-description {
+        font-size: 22px;
+        line-height: 26px;
         }
 
-
+        text-align: center;
+        text-transform: uppercase;
+        }
+        
 
 
 
@@ -223,7 +238,7 @@
         display: flex;
         color: #ffffff;
         background-color: #3F5E72;
-        background-image: url("images/catalog/background-1.jpg");
+        background-image: url("images/catalog/background-1.jpg") no-repeat;
         text-decoration: none;
        }      
        .containar-inner-title {
