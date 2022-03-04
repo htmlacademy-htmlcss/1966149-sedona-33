@@ -78,19 +78,12 @@
         .main-container {
         flex-grow: 1;
         }
-        .page-container {
-        background-image: url("styles/images/index/background-1.jpg") no-repeat;
-        width: 1200px;
-        margin: 0 auto;
-        }
         .containar-welcome {
-        margin: 0;
-        padding: 0;
-        background-color: #e4eaee; /* намеренно поставила этот цвет фона, т.к. пока разбираюсь 
-        хотелось бы видеть, что меняется. background-color: #81B3D3 - это верный*/
-        background-image: url("images/index/background-1.jpg") no-repeat;
-        text-align: center;
+        background: url("images/index/background-1.jpg") no-repeat;
+        background-color: #e4eaee; 
+        width: 1200px;
         background-size: 100% auto;
+        margin: 0 auto;
         }
         .description-text {
         font-size: 30px;
@@ -100,11 +93,15 @@
         margin: 0 auto;
         text-transform: uppercase;
         }
-        .advantages {
+        index-index- {
         display: flex;
         justify-content: space-between;
         margin: 0;
         padding: 0; 
+        width: 1200px;
+        }
+        .index-advantages {
+        width: 1200px;
         }
         .advantages-title {
         font-size: 24px;
@@ -174,16 +171,19 @@
         line-height: 36px;
         font-weight: 700;
         text-transform: uppercase;
+        width: 720px;
+        margin: 0 auto;
         }
         .offers-description {
         font-size: 22px;
         line-height: 26px; 
+        width: 720px;
+        margin: 0 auto;
         }
-        .e-mail-container {
-        background-image: url("images/index/background-2.jpg") no-repeat;
+        .e-mail-main-page {
+        background: url("images/index/background-2.jpg") no-repeat;
         width: 1200px;
         background-color: #83B3D3;
-        display: flex;
         justify-content: space-between;
         margin: 0 auto;
         }
@@ -192,90 +192,104 @@
         line-height: 36px;
         font-weight: 700;
         color:#ffffff;
-        background-color: #83B3D3;
-        
+        text-transform: uppercase; 
+        text-decoration: none;
         }
         .e-mail-description {
         font-size: 22px;
         line-height: 26px;
+        color:#ffffff;
+        text-transform: none;
         }
-
-        text-align: center;
-        text-transform: uppercase;
-        }
-        
-
-
-
-
-
-
-
-
-       .page-footer-container {
-        margin: 0 auto;
+       .page-footer {
+        width: 1200px;
         display: flex;
-        width: 1200px; 
+        margin: 0 auto;
        }
-       .footer-socials {
-        width: 107px; 
-        margin-left: 72px;
-        margin-right: 61px;
+       .page-footer-container {
+        display: flex;
+        width: 1200px;
+        margin: 0 auto;
+        justify-content: space-between;
        }
-       .footer-contacts {
+       .page-footer-socials {
+        width: 240px;
+        margin-right: auto;
+       }
+       a {
+      text-decoration:none;
+      color:#000000;
+       }
+        .page-footer-contacts {
         width: 720px;
         color:#000000;
         font-size: 40px;
         line-height: 40px;
-        text-decoration: none;
        }
-       .footer-logo {
-        width: 115px;
-        margin-right: 72px;
+       .page-footer-Logo {
+        display: block;
+        margin: 0 auto;
+        width: 240px;
        }
+
+
+
        /*Каталог*/
-       .page-container {
+       
+       .main-catalog {
+        background: url("images/catalog/background-1.jpg") no-repeat;
+        width: 1200px;
         display: flex;
-        color: #ffffff;
-        background-color: #3F5E72;
-        background-image: url("images/catalog/background-1.jpg") no-repeat;
-        text-decoration: none;
-       }      
+        background-size: 100% auto;
+        margin: 0 auto;
+       }
        .containar-inner-title {
-        font-size: 60px; 
-        line-height: 77,64px;
+        width: 528px;
+        display: flex;
+        font-size:60px;
+        line-height:77,64px;
+        color: #ffffff;
         text-align: left;
        }
        .breadcrumbs {
         display: flex; 
-        
        }
-       .main-container { 
-        display: inline-block;
-        
-       
-       }
-       .breadcrumbs-link {
-        font-size: 16px;
-        line-height: 20,7px; 
+        .breadcrumbs-link {
         color: #ffffff;
         text-decoration: none; 
+        }
+       .inner-title {
+        font-size:16px;
+        line-height:20,7px;  
        }
+       .containar-inner-filters {
+        display: flex;
+        font-size:20px;
+        line-height:25,88px;
+        color: #ffffff;
+        text-decoration: none;
+       }      
        .filters {
+        color: #ffffff;
         display: flex;
         font-size: 20px;
         line-height: 25,88px;  
        }
-       .label {
-       line-height: 23,29px;
-       text-align: left;
+       .control-input {
+        font-size:18px;
+        line-height:23,29px;
        }
-       .button {
-        text-align: center; 
-        text-transform: uppercase; 
+       .main-container { 
+        display: inline-block;
        }
+      .hotels {
+       display: flex;
+      }
+      .hotels-search{
+      
+      }
        .e-mail-catalog {
-       color:#000000;
+        color:#000000;
        background-color: #ffffff;
        }
        
