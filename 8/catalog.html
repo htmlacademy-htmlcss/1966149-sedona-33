@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Каталог</title>
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+    <base href="https://htmlacademy-htmlcss.github.io/1966149-sedona-33/8/">
+</head>
+  <body>
+  <header class="page-header">
+  <a class="page-header-logo" href="#">
+  <img class="logo" src="images/index/logo.png" width="139" height="70" alt="Логотип городка Седона">
+  </a>
+  <nav class="navigation">
+  <section class="navigation">
+  <a class="navigation-list">
+  <a class="navigation-link" href="#">Главная</a>
+  <a class="navigation-link" href="">О Седоне</a>
+  <a class="navigation-link" href="catalog.html">Гостиницы</a>
+  </a>
+  </nav>   
+  <section class="navigation-user">
+  <a class="navigation-user" href="#"><span class="visually-hidden" hidden>Поиск</span>
+  <img class="navigation-user-img" src="images/index/search.svg" width="18,05" height="18,01" alt="search">
+  </a>
+  <a class="navigation-user" href="#"><span class="visually-hidden" hidden>Избранное</span>
+  <img class="navigation-user-img" src="images/index/favorite.svg" width="42" height="66" alt="favorite">
+  </a>
+  <a class="navigation-user-button" href="catalog.html">
+  <img class="button" src="images/index/button-I want here.svg" width="160" height="37,24" alt="Хочу сюда!>
+  </a>
+  <a href="#" class="button"></a>
+  </section> 
+  </header>
+  <main class="main-container main-catalog">
+  <div class="main-catalog" 
+  <img class="background" src="styles/images/catalog/background-1.jpg" width="1200" height="408" alt="Вид на заднем плане">
+  <div class="container-inner-title">
+  <h1 class="containar-inner-title">Гостиницы Седоны</h1>  
+  <img class="breadcrumbs-icon-1" src="images/catalog/icon-1.svg" width="12" height="11,7" alt="Иконка домик">
+  <img class="breadcrumbs-icon-2" src="images/catalog/icon-2.svg" width="5,11" height="7,95" alt="Иконка стрелочка">
+  <a class="breadcrumbs-link" href="#">Гостиницы</a>
+  </div>
+  </div>
+  <div class="filters"
+  <div class="filter-1">
+  <section class="filter-1">    
+  <h2 class="containar-inner-filter">Инфраструктура:</h2>  
+  <ul><label class="control"><input class="control-input" type="checkbox" name="pool" checked>Бассейн</label>
+  </ul>
+  <ul><label class="control"><input class="control-input" type="checkbox" name="parking" checked>Парковка</label>
+  </ul>
+  <ul><label class="control"><input class="control-input" type="checkbox" name="internet">Wi-Fi</label>
+  </ul>   
+  </section> 
+  <div class="filter-2"">
+  <section class="filter-2">
+  <h2 class="containar-inner-filte">Тип жилья:</h2>  
+  <ul><label class="control"><input class="control-input" type="radio" name="hotel" value="hotel" checked>Гостиница</label>
+  </ul>
+  <ul><label class="control"><input class="control-input" type="radio" name="motel">Мотель</label>
+  </ul>
+  <ul><label class="control"><input class="control-input" type="radio" name="apartments">Апартаменты</label>
+  </ul>  
+  </section>
+  <div class="filter-3">
+  <section class="filter-3">
+  <h2 class="containar-inner-filter">Стоимость, ₽:</h2>   
+  <button class="button" type="submit">Применить</button>
+  <button class="button" type="submit">Сбросить</button>
+  </section>
+  </div>
+  </div>
+ </div>
+  <h3 class="catalog-search">Найдено гостиниц: 38</h3>
+  <select class="select-control" aria-label="Сортировка">
+  <option value="popular">Сначала дешевые</option>
+  <option value="cheap">Сначала дорогие</option>
+  <option value="expensive">Популярные</option>
+  </select>
+  <div class="hotels">
+  <div class="hotels-search">
+  <a class="hotels-search-link" href="#">
+  <img class="hotel-card-image" src="images/catalog/hotel-1.jpg" width="290" height="206" alt="Amara Resort & Spa">
+  <h4 class="hotel-card-title">Amara Resort & Spa</h4>
+  </a>
+  <span class="product-card-price">Гостиница</span>
+  <span class="product-card-price">от 4000 ₽</span>
+  <button type="button" name="button-details">
+  <img class="button-details" src="images/catalog/button-details.svg" alt="Подробнее" width="133,01" height="37">
+  </button>
+  <button type="button" name="button-to-favorites">
+  <img class="button-to favorite" src="images/catalog/button-to-favorites.svg" alt="В ИЗБРАННОЕ" width="140,94" height="37"
+  </button>
+  <button type="button" name="rating">
+  <img class="button-stars4" src="images/catalog/stars4.svg" width="91" height="17" alt="Рейтинг">
+  <button>
+  <button type="button" name="rating">
+  <img class="button-rating" src="images/catalog/button-rating 8,5.svg" width="160" height="37" alt="Рейтинг">
+  </button>
+  </div>
+  <div class="hotels-search">
+  <a class="search-hotel-link" href="#">
+  <img class="hotel-card-image" src="images/catalog/hotel-2.jpg" width="299" height="206" alt="Desert Quail Inn">
+  <h4 class="hotel-card-title">Desert Quail Inn</h4>
+  </a>
+  <span class="product-card-price">Гостиница</span>
+  <span class="product-card-price">от 3000 ₽</span>
+  <button type="button" name="button-details">
+  <img class="button-details" src="images/catalog/button-details.svg" alt="Подробнее" width="133,01" height="37">
+  </button>
+  <button type="button" name="button-to-favorites">
+  <img class="button-to favorite" src="images/catalog/button-to-favorites.svg" alt="В ИЗБРАННОЕ" width="140,94" height="37"
+  </button>
+  <button type="button" name="rating">
+  <img class="button-stars4" src="images/catalog/stars3.svg" width="91" height="17" alt="Рейтинг">
+  <button>
+  <button type="button" name="rating">
+  <img class="button-rating" src="images/catalog/button-rating 8,9.svg" width="160" height="37" alt="Рейтинг">
+  </button>
+  </div>
+  <div class="hotels-search">
+  <a class="search-hotel-link" href="#">
+  <img class="hotel-card-image" src="images/catalog/hotel-3.jpg" width="299" height="206" alt="Villas at Poco Diablo">
+  <h4 class="hotel-card-title">Villas at Poco Diablo</h4>
+  </a>
+  <span class="product-card-price">Гостиница</span>
+  <span class="product-card-price">от 2000 ₽</span>
+  <button type="button" name="button-details">
+  <img class="button-details" src="images/catalog/button-details.svg" alt="Подробнее" width="133,01" height="37">
+  </button>
+  <button type="button" name="button-be-favorites">
+  <img class="button-to favorite" src="images/catalog/button-be-favorites.svg" alt="В ИЗБРАННОМ" width="140,94" height="37"
+  </button>
+  <button type="button" name="rating">
+  <img class="button-stars4" src="images/catalog/stars2.svg" width="91" height="17" alt="Рейтинг">
+  <button>
+  <button type="button" name="rating">
+  <img class="button-rating" src="images/catalog/button-rating 9,2.svg" width="160" height="37" alt="Рейтинг">
+  </button>
+  </div>
+  <div class="hotels-search">
+  <a class="search-hotel-link" href="#">
+  <img class="hotel-card-image" src="images/catalog/hotel-4.jpg" width="299" height="206" alt="GreenTree Inn">
+  <h4 class="hotel-card-title">GreenTree Inn</h4>
+  </a>
+  <span class="product-card-price">Гостиница</span>
+  <span class="product-card-price">от 3000 ₽</span>
+  <button type="button" name="button-details">
+  <img class="button-details" src="images/catalog/button-details.svg" alt="Подробнее" width="133,01" height="37">
+  </button>
+  <button type="button" name="button-to-favorites">
+  <img class="button-to-favorite" src="images/catalog/button-to-favorites.svg" alt="В ИЗБРАННОЕ" width="140,94" height="37"
+  </button>
+  <button type="button" name="rating">
+  <img class="button-stars4" src="images/catalog/stars2.svg" width="91" height="17" alt="Рейтинг">
+  <button>
+  <button type="button" name="rating">
+  <img class="button-rating" src="images/catalog/button-rating 9,2.svg" width="160" height="37" alt="Рейтинг">
+  </button>
+  </div>
+  </div>
+  <div class="hotels-download">  
+  <button type="button" name="button-download">
+  <img class="button-download" src="images/catalog/button-download.svg" alt="Загрузить еще" width="619,83" height="37"
+  </button>
+  </div>
+  <div class="e-mail-catalog">
+  <section class="e-mail-container">
+  <article class="e-mail-text">
+  <p class="e-mail-title">ПОДПИШИТЕСЬ НА РАССЫЛКУ</p>
+  <p class="e-mail-description">Только полезная информация и никакого спама,<br>честное бойскаутское!</p>
+  <input type="text" name="e-mail" value="Ваш e-mail">
+  <input type="submit" value="Подписаться!">
+  </article>    
+  </section>
+  </div> 
+  </div>    
+  </main>
+  </body>
+  
+  <footer class="page-footer">
+    <div class="page-footer-container">
+    <section class="page-footer-socials">
+    <h4 class="page-footer-socials-title"><span class="visually-hidden" hidden>Социальные сети</span></h4>
+    <a href="https://twitter.com/htmlacademy_ru"><img src="images/index/twitter.svg" width="18" height="14,96" class="icon-style" alt="Twitter-icon"></a>
+    <a href="https://www.facebook.com/htmlacademy"><img src="images/index/facebook.svg" width="10" height="18" class="icon-style" alt="facebook-icon"></a>
+    <a href="https://www.youtube.com/c/HTMLAcademyRUS"><img src="images/index/youtube.svg" width="20,1" height="16" class="icon-style" alt="youtube-icon"></a>
+    </section>
+    <section class="page-footer-contacts">
+    <h4 class="visually-hidden" hidden>Контакты</h4>
+    <a href="tel:+7(495) 666-02-66">+7 (812) 812-12-12</a>
+    </section>
+    <section class="page-footer-Logo">
+    <h4 class="visually-hidden" hidden>Сайт разработчика</h4>
+    <a href="https://htmlacademy.ru"><img src="images/index/Logo-HTML-ACADEMY.svg" width="114,9" height="32,9" alt="Логотип разработчика">   
+    </div>
+    </footer>
+    </html>
