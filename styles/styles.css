@@ -26,33 +26,82 @@
         src: url("fonts/pt-sans-regular.woff2") format("woff2");
         font-display: swap;
         }
+        html {
+        height: 100%;
+        }
         body {
+        text-align: center;
+        margin: 0;
+        display: flex;
+        min-height: 100%;
+        flex-direction: column;
         font-family: "PT Sans"; sans-serif;
         font-size: 18px;
         line-height: 21px;
         color: #000000;
         background-color: #ffffff;
         }
-        .navigation {
+        .page-header {
+        display: flex;
+        width: 1200px;
+        margin: 0 auto;
         color:#000000;
         font-size: 20px;
         line-height: 26px;
         text-decoration: none;
         }
-        .containar-welcome {
-        background-color: #e4eaee; /* намеренно поставила этот цвет фона, т.к. пока разбираюсь 
-        хотелось бы видеть, что меняется. background-color: #81B3D3 - это верный*/
-        background-image: url("images/index/background-1.jpg");
-        text-align: center;
-        background-size: 100% auto;
+        .logo {
+        display: block;
+        width: 139px;
+        margin-left: 70px;
         }
-        div {
-        text-align: center;
+        .navigation {
+        width: 435px;
+        margin: 0;
+        padding: 0;
+        margin-right: 282px;
+        }
+        .navigation-link {
+        font-size: 20px;
+        line-height: 26px;
+        font-weight: 700;
+        color:#000000;
+        margin-right:34px;
+        text-decoration: none; 
+        }
+        .navigation-user {
+        display: flex;
+        width: 300px;
+        margin: 0 auto;
+        margin-right:31px; 
+        }
+        .main-container {
+        flex-grow: 1;
+        }
+        .containar-welcome {
+        background: url("images/index/background-1.jpg") no-repeat;
+        background-color: #e4eaee; 
+        width: 1200px;
+        background-size: 100% auto;
+        margin: 0 auto;
         }
         .description-text {
         font-size: 30px;
+        font-weight: 700;
         line-height:36px;
+        width: 1200px;
+        margin: 0 auto;
         text-transform: uppercase;
+        }
+        index-index- {
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0; 
+        width: 1200px;
+        }
+        .index-advantages {
+        width: 1200px;
         }
         .advantages-title {
         font-size: 24px;
@@ -60,94 +109,187 @@
         font-weight: 700;
         text-transform: uppercase;
         }
-        .advantages-container-one {
+        .advantages-text {
+        width: 400px;
+        font-size: 22px;
+        line-height: 36px; 
+        margin-left: auto;
+        margin-right: auto; 
+        }
+        .advantages-container-1 {
+        display: flex;
+        justify-content: space-between;
+        width: 1200px;
+        margin: 0 auto;
         color: #ffffff;
         background-color: #83B3D3;
         }
-        .advantages-containar-two {
+        .advantages-containar-2 {   
+        width: 400px;
         background-color: rgba(131, 179, 211, 0.12);
         }
-        .advantages-containar-four {
+        .advantages-containar-3{
+        width: 400px;
+        justify-content: space-between;
+        }
+        .advantages-containar-4 {
+        width: 400px;  
         background-color: rgba(131, 179, 211, 0.12);
         }
-        .advantages-container-five {
+        .column-advantages {
+        text-align: center;
+        width: 1200px;
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-between;
+        }
+        .advantages-container-5 {
+        display: flex;
+        justify-content: space-between;
+        width: 1200px;
+        margin: 0 auto;
         color: #ffffff;
         background-color: #83B3D3;
         }
-        .advantages-container-six {
+        .advantages-container-6 {
         background-color: rgba(131, 179, 211, 0.12);
         }
-        .advantages-container-seven {
+        .advantages-container-7 {
         background-color: rgba(131, 179, 211, 0.2);
         }
-        .advantages-container-eight {
+        .advantages-container-8 {
         background-color: rgba(131, 179, 211, 0.12);
         } 
+        .offers {
+        width: 1200px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        }
         .offers-title {
         font-size: 30px;
         line-height: 36px;
         font-weight: 700;
         text-transform: uppercase;
+        width: 720px;
+        margin: 0 auto;
         }
         .offers-description {
         font-size: 22px;
         line-height: 26px; 
+        width: 720px;
+        margin: 0 auto;
         }
-        /* фон не по макету, т.к. надо видеть, что пишу. по макету background-color:#83B3D3; кажется)))*/
-        .e-mail-container {
-        color:#ffffff;
-        background-color:#e4eaee;
-        background-image: url("images/index/background-2.jpg");
-        background-size: 100% auto;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        font-size: 22px;
-        line-height: 26px;
+        .e-mail-main-page {
+        background: url("images/index/background-2.jpg") no-repeat;
+        width: 1200px;
+        background-color: #83B3D3;
+        justify-content: space-between;
+        margin: 0 auto;
         }
-       .e-mail-title {
+        .e-mail-title {
         font-size: 30px;
         line-height: 36px;
-        font-weight: 700; 
-        text-transform: uppercase;
+        font-weight: 700;
+        color:#ffffff;
+        text-transform: uppercase; 
         text-decoration: none;
+        }
+        .e-mail-description {
+        font-size: 22px;
+        line-height: 26px;
+        color:#ffffff;
+        text-transform: none;
+        }
+       .page-footer {
+        width: 1200px;
+        display: flex;
+        margin: 0 auto;
        }
-       .footer-contacts {
+       .page-footer-container {
+        display: flex;
+        width: 1200px;
+        margin: 0 auto;
+        justify-content: space-between;
+       }
+       .page-footer-socials {
+        width: 240px;
+        margin-right: auto;
+       }
+       a {
+      text-decoration:none;
+      color:#000000;
+       }
+        .page-footer-contacts {
+        width: 720px;
         color:#000000;
         font-size: 40px;
         line-height: 40px;
-        text-decoration: none;
        }
-       .containar-main {
-        color: #ffffff;
-        background-color: #3F5E72;
-        background-image: url("images/catalog/background-1.jpg");
-        text-decoration: none;
-       }        
+       .page-footer-Logo {
+        display: block;
+        margin: 0 auto;
+        width: 240px;
+       }
+
+
+
+       /*Каталог*/
+       
+       .main-catalog {
+        background: url("images/catalog/background-1.jpg") no-repeat;
+        width: 1200px;
+        display: flex;
+        background-size: 100% auto;
+        margin: 0 auto;
+       }
        .containar-inner-title {
-        font-size: 60px; 
-        line-height: 77,64px;
+        width: 528px;
+        display: flex;
+        font-size:60px;
+        line-height:77,64px;
+        color: #ffffff;
         text-align: left;
        }
-       .breadcrumbs { 
-        text-align: left;
-        text-decoration: none;
+       .breadcrumbs {
+        display: flex; 
        }
-       .breadcrumbs-link {
-        font-size: 16px;
-        line-height: 20,7px; 
+        .breadcrumbs-link {
         color: #ffffff;
         text-decoration: none; 
+        }
+       .inner-title {
+        font-size:16px;
+        line-height:20,7px;  
        }
+       .containar-inner-filters {
+        display: flex;
+        font-size:20px;
+        line-height:25,88px;
+        color: #ffffff;
+        text-decoration: none;
+       }      
        .filters {
+        color: #ffffff;
+        display: flex;
         font-size: 20px;
-        line-height: 25,88px;
-        text-align: left;  
+        line-height: 25,88px;  
        }
-       .label {
-       line-height: 23,29px;
-       text-align: left;
+       .control-input {
+        font-size:18px;
+        line-height:23,29px;
        }
-       .button {
-        text-align: center; 
-        text-transform: uppercase; 
+       .main-container { 
+        display: inline-block;
        }
+      .hotels {
+       display: flex;
+      }
+      .hotels-search{
+      
+      }
+       .e-mail-catalog {
+        color:#000000;
+       background-color: #ffffff;
+       }
+       
