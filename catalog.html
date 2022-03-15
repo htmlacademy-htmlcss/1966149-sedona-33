@@ -17,22 +17,20 @@
   <section class="navigation">
   <a class="navigation-list">
   <a class="navigation-link" href="#">Главная</a>
-  <a class="navigation-link" href="">О Седоне</a>
+  <a class="navigation-link" href="#">О Седоне</a>
   <a class="navigation-link" href="catalog.html">Гостиницы</a>
-  </a>
   </nav>   
-  <section class="navigation-user">
-  <a class="navigation-user" href="#"><span class="visually-hidden" hidden>Поиск</span>
-  <img class="navigation-user-img" src="images/index/search.svg" width="18,05" height="18,01" alt="search">
+  <div class="navigation-user">
+  <a class="navigation-user-1" href="catalog.html"><span class="visually-hidden">Поиск</span>
+  <img class="navigation-user-img" src="images/index/search.svg" width="42" height="66" alt="search">
   </a>
-  <a class="navigation-user" href="#"><span class="visually-hidden" hidden>Избранное</span>
+  <a class="navigation-user-2" href="#"><span class="visually-hidden">Избранное</span>
   <img class="navigation-user-img" src="images/index/favorite.svg" width="42" height="66" alt="favorite">
   </a>
-  <a class="navigation-user-button" href="catalog.html">
-  <img class="button" src="images/index/button-I want here.svg" width="160" height="37,24" alt="Хочу сюда!>
+  <a class="navigation-user-3" href="catalog.html">
+  <img class="button" src="images/index/button-I want here.svg" width="160" height="37,24" alt="I want here!">
   </a>
-  <a href="#" class="button"></a>
-  </section> 
+  </div> 
   </header>
   <main class="main-container main-catalog">
   <div class="main-catalog" 
@@ -44,7 +42,7 @@
   <a class="breadcrumbs-link" href="#">Гостиницы</a>
   </div>
   </div>
-  <div class="filters"
+  <div class="filters">
   <div class="filter-1">
   <section class="filter-1">    
   <h2 class="containar-inner-filter">Инфраструктура:</h2>  
@@ -55,7 +53,8 @@
   <ul><label class="control"><input class="control-input" type="checkbox" name="internet">Wi-Fi</label>
   </ul>   
   </section> 
-  <div class="filter-2"">
+  </div>
+  <div class="filter-2">
   <section class="filter-2">
   <h2 class="containar-inner-filte">Тип жилья:</h2>  
   <ul><label class="control"><input class="control-input" type="radio" name="hotel" value="hotel" checked>Гостиница</label>
@@ -65,21 +64,25 @@
   <ul><label class="control"><input class="control-input" type="radio" name="apartments">Апартаменты</label>
   </ul>  
   </section>
+  </div>
   <div class="filter-3">
   <section class="filter-3">
   <h2 class="containar-inner-filter">Стоимость, ₽:</h2>   
-  <button class="button" type="submit">Применить</button>
-  <button class="button" type="submit">Сбросить</button>
   </section>
   </div>
+  <div class="button">
+  <button class="button" type="submit">Применить</button>
+  <button class="button" type="submit">Сбросить</button>
   </div>
- </div>
+  </div>
+  <div class="catalog-search">
   <h3 class="catalog-search">Найдено гостиниц: 38</h3>
   <select class="select-control" aria-label="Сортировка">
   <option value="popular">Сначала дешевые</option>
   <option value="cheap">Сначала дорогие</option>
   <option value="expensive">Популярные</option>
   </select>
+  </div>
   <div class="hotels">
   <div class="hotels-search">
   <a class="hotels-search-link" href="#">
@@ -167,6 +170,33 @@
   <img class="button-download" src="images/catalog/button-download.svg" alt="Загрузить еще" width="619,83" height="37"
   </button>
   </div>
+  <div class="pagination-container">
+  <ul class="pagination">
+  <li class="pagination-item">
+  <li class="pagination-item">
+  <a class="pagination-link pagination-current">1</a>
+  </li>
+  <li class="pagination-item">
+  <a class="pagination-link" href="#">2</a>
+  </li>
+  <li class="pagination-item">
+  <a class="pagination-link" href="#">3</a>
+  </li>
+  <li class="pagination-item">
+  <a class="pagination-link" href="#">4</a>
+  </li>
+  <li class="pagination-item">
+  <a class="pagination-link" href="#">...</a>
+  </li>
+  <li class="pagination-item">
+  <a class="pagination-link pagination-next" href="#"
+  <span class="visually-hidden">10</span>
+  </a>
+  <p class="catalog-search">Гостиниц на странице</p>
+  <select class="select-control" aria-label="Сортировка">
+  <option value="select">4</option>
+  </select>
+  </div>
   <div class="e-mail-catalog">
   <section class="e-mail-container">
   <article class="e-mail-text">
@@ -184,17 +214,17 @@
   <footer class="page-footer">
     <div class="page-footer-container">
     <section class="page-footer-socials">
-    <h4 class="page-footer-socials-title"><span class="visually-hidden" hidden>Социальные сети</span></h4>
+    <h4 class="page-footer-socials-title"><span class="visually-hidden">Социальные сети</span></h4>
     <a href="https://twitter.com/htmlacademy_ru"><img src="images/index/twitter.svg" width="18" height="14,96" class="icon-style" alt="Twitter-icon"></a>
     <a href="https://www.facebook.com/htmlacademy"><img src="images/index/facebook.svg" width="10" height="18" class="icon-style" alt="facebook-icon"></a>
     <a href="https://www.youtube.com/c/HTMLAcademyRUS"><img src="images/index/youtube.svg" width="20,1" height="16" class="icon-style" alt="youtube-icon"></a>
     </section>
     <section class="page-footer-contacts">
-    <h4 class="visually-hidden" hidden>Контакты</h4>
+    <h4 class="visually-hidden">Контакты</h4>
     <a href="tel:+7(495) 666-02-66">+7 (812) 812-12-12</a>
     </section>
     <section class="page-footer-Logo">
-    <h4 class="visually-hidden" hidden>Сайт разработчика</h4>
+    <h4 class="visually-hidden">Сайт разработчика</h4>
     <a href="https://htmlacademy.ru"><img src="images/index/Logo-HTML-ACADEMY.svg" width="114,9" height="32,9" alt="Логотип разработчика">   
     </div>
     </footer>
