@@ -1,0 +1,177 @@
+@font-face {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/pt-sans-regular.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  src: url("fonts/pt-sans-regular.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-style: italic;
+  font-weight: 400;
+  src: url("fonts/pt-sans-regular.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-style: italic;
+  font-weight: 700;
+  src: url("fonts/pt-sans-regular.woff2") format("woff2");
+  font-display: swap;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  text-align: center;
+  margin: 0;
+  display: flex;
+  min-height: 100%;
+  flex-direction: column;
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.page-header {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  font-size: 20px;
+  line-height: 26px;
+  text-decoration: none;
+}
+
+.page-header-logo {
+  width: 139px;
+  margin-left: 70px;
+}
+
+.navigation-list {
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.main-index {
+  background: url("images/index/background-1.jpg") no-repeat;
+  width: 1200px;
+  height: 485px;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.navigation-link {
+  line-height: 26px;
+  color: #000000;
+  margin-right: 34px;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.advantages-title-first {
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.advantages-text-first {
+  font-size: 22px;
+  line-height: 36px;
+}
+
+.advantages-container-1 {
+  color: #ffffff;
+  background-color: #81B3D2;
+}
+
+.advantages-title {
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.advantages-containar-2 {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-containar-4 {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-container-5 {
+  color: #ffffff;
+  background-color: #83B3D3;
+}
+
+.advantages-container-6 {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-container-7 {
+  background-color: rgba(131, 179, 211, 0.2);
+}
+
+.advantages-container-8 {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.serch-title {
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.serch-description {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.e-mail {
+  background: url("images/index/background-2.jpg") no-repeat;
+  background-color: #83B3D3;
+  color: #ffffff;
+}
+
+.e-mail-title {
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.e-mail-description {
+  font-size: 22px;
+  line-height: 26px;
+}
+.page-footer {
+  background-color: #ffffff;
+  color: #000000;
+}
+
