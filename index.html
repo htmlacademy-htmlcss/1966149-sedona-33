@@ -5,18 +5,16 @@
   <meta charset="utf-8">
   <title>Главная страница</title>
   <link rel="stylesheet" href="styles/styles.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
 
 <body>
   <header class="page-header">
-    <a class="page-header-logo" href="#">
-      <img class="logo" src="images/index/logo.svg" width="139" height="70" alt="Логотип городка Седона">
-    </a>
     <nav class="navigation">
       <ul class="navigation-list">
         <li class="navigation-item">
+          <a class="page-header-logo" href="#">
+            <img class="logo" src="images/index/logo.svg" width="139" height="70" alt="Логотип городка Седона">
+          </a>
           <a class="navigation-link" href="index.html">Главная</a>
         </li>
         <li class="navigation-item">
@@ -44,13 +42,14 @@
     </nav>
   </header>
   <main class="main-container main-index">
+    <div class="page-container">
     <section class="containar-welcome">
       <h1 class="visually-hidden">Городок Седона</h1>
       <img class="background" src="images/index/background-1.jpg" width="1200" height="485" alt="Вид на каньон">
       <img class="welcome" src="images/index/welcome.svg" width="458" height="352" alt="Welcome">
     </section>
     <section class=" advantages">
-      <h2 class=" visually-hidden">Седона — небольшой городок в Аризоне,<br> заслуживающий большего!</h2>
+      <h2>Седона — небольшой городок в Аризоне,<br> заслуживающий большего!</h2>
       <p class="advantages-text ">Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>
     </section>
     <section class="containar-advantages-1">
@@ -134,11 +133,12 @@
       <p class="e-mail-description">Только полезная информация и никакого спама,<br>честное бойскаутское!</p>
       <form class="appointment-form" action="https://echo.htmlacademy.ru/" method="post">
         <p class="appointment-form-e-mail">
-          <input type="text" name="e-mail" value="Ваш e-mail">
+          <input type="text" name="e-ma"il" value="Ваш e-mail">
         </p>
         <button class="button" type="submit">Подписаться!</button>
       </form>
     </section>
+  </div>
   </main>
   <footer class="page-footer">
     <section class="footer-social">

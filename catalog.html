@@ -11,12 +11,12 @@
 
 <body>
   <header class="page-header">
-    <a class="page-header-logo" href="#">
-      <img class="logo" src="images/index/logo.svg" width="139" height="70" alt="Логотип городка Седона">
-    </a>
     <nav class="navigation">
       <ul class="navigation-list">
         <li class="navigation-item">
+          <a class="page-header-logo" href="#">
+            <img class="logo" src="images/index/logo.svg" width="139" height="70" alt="Логотип городка Седона">
+          </a>
           <a class="navigation-link" href="about.html">Главная</a>
         </li>
         <li class="navigation-item">
@@ -36,14 +36,15 @@
           <img class="navigation-user-img" src="images/index/favorite.svg" width="18" height="17" alt="favorite">
         </li>
         <li class="navigation-item">
-          <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
-            <button class="button" type="submit">Хочу сюда!</button>
-          </form>
+          <a class="navigation-link" href="#"><span class="visually-hidden">Хочу сюда!</span>
+            Хочу сюда!
+          </a>
         </li>
       </ul>
     </nav>
   </header>
   <main class="main-container main-catalog">
+    <!--<div class="page-container"???>-->
     <header class="inner-heder">
       <h1 class="inner-header-title">Гостиницы Седоны</h1>
       <ul class="breadcrumbs">
@@ -187,7 +188,7 @@
           </select>
         </section>
       </div>
-      <section class="subs-scrite-bg ">
+      <section class="subs-scrite ">
         <!--спросить у Саши, как правильно написать тег, в странице каталога убрать "br"-->
         <h3>ПОДПИШИТЕСЬ НА РАССЫЛКУ</h3>
         <p class="e-mail-description">Только полезная информация и никакого спама,<br>честное бойскаутское!</p>
@@ -198,6 +199,7 @@
           <button class="button" type="submit">Подписаться!</button>
         </form>
       </section>
+    <!--</div>???-->
   </main>
   <footer class="page-footer">
     <section class="footer-social">
