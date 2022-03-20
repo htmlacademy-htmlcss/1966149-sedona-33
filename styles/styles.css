@@ -58,8 +58,11 @@ body {
  color:#ffffff;
  background-color: #83B3D3;
 }
-.navigation {
 
+.logo {
+
+}
+.navigation {
   width: 1060x;
   margin: 0 auto;
 }
@@ -94,7 +97,7 @@ body {
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
-
+/*
 .advantages {
   font-size: 30px;
   line-height: 36px;
@@ -138,7 +141,7 @@ text-transform: uppercase;
   font-size: 22px;
   line-height: 26px;
 }
-.subs-scrite-bg {
+.subscribe-bg {
   background-image: url("images/index/background-2.jpg");
   background-size: 100% auto;
   width: 1200px;
