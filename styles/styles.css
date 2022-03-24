@@ -172,10 +172,6 @@ margin: 0 auto;
   text-align: center;
 }
 
-.h1 {
-  max-width: 720px;
-}
-
 .advantages-text {
 font-size: 22px;
 line-height: 36px;
@@ -360,7 +356,6 @@ text-align: start;
   flex-wrap: wrap;
   color: #ffffff; 
   justify-content: space-between;
- 
 }
 
 .containar-inner-filter {
@@ -386,6 +381,7 @@ text-align: start;
 
 .select-control {
   height: 48px;
+  width: 287px;
 }
 
 .hotels-download {
@@ -413,7 +409,7 @@ text-align: start;
   width: auto;
 }
 
-/.pagination-item {
+.pagination-item {
   width: 55px;
 }
 
@@ -425,7 +421,13 @@ text-align: start;
 .hotels-results {
   display: flex;
   flex-wrap: wrap;
-  justify-content:space-around;
+  width: auto;
+  margin: 0;
+  padding: 0;
+  flex-grow: 1;
+  align-items: center;
+  padding-left: 71px;
+  padding-right: 71px;
   }
   
   .catalog-search {
@@ -433,9 +435,18 @@ text-align: start;
   line-height: 39px;
   text-transform: uppercase;
   font-weight: 700;
+  padding-right: 192px;
+  }
+
+  .select-control {
+    line-height: 23px;
   }
   
-.hotels-list {
+  .search {
+  width: 160px;
+  }
+
+ .hotels-list {
   margin: 0;
   padding: 0;
   padding-left: 72px;
@@ -446,6 +457,59 @@ text-align: start;
   justify-content: space-between;
 }
 
+.hotels-list-item {
+  width: 340px;
+  padding: 20px;
+}
+
+.hotel-list-item-parameters {
+margin: 0;
+padding: 0;
+list-style: none;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+}
+
+.hotel-type {
+ width: 133px;
+}
+
+.product-price {
+width: 143px;
+}
+
+.product-more {
+  width: 133px;
+}
+
+.product-add-favorite {
+  width: 140px;
+}
+
+.hotel-card-title {
+  font-size: 24px;
+  line-height: 31px;
+}
+
+.hotel-rating {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: auto;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+.hotel-rate {
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  width: 160px;
+}
+
+/*
 .hotel-list-item {
   width: 340px;
   text-align: center;
@@ -490,7 +554,7 @@ display: flex;
 flex-wrap: wrap;
 justify-content: space-around;
 }
-
+*/
 .subscribe {
   background-image: none;
   background-size: 100% auto;
