@@ -380,7 +380,6 @@ text-align: start;
   margin: 0;
 }
 
-}
 .catalog-search {
   font-size: 30px;
   line-height: 38px;
@@ -534,17 +533,6 @@ text-align: start;
   line-height: 20px;
   text-transform: uppercase;
   width: 160px;
-}
-
-.more-add-favorite {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between; 
-  justify-content: space-between;
-  width: auto;
-  margin: 0;
-  padding: 0;
-  align-items: center;
 }
 
 .subscribe {
