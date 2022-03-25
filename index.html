@@ -24,14 +24,20 @@
         </ul>
         <ul class="navigation-user">
           <li class="navigation-item">
-            <a class="navigation-link" href="#"><span class="visually-hidden">Поиск</span></a>
+            <a class="navigation-link" href="#"><span class="visually-hidden">Поиск</span>
             <svg width="42" height="66" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="m30.03 40.05-3.71-3.7c1-1.3 1.7-3 1.7-4.9 0-4.4-3.61-8-8.02-8a8.12 8.12 0 0 0-8.03 8.1c0 4.4 3.61 8 
               8.03 8 1.8 0 3.5-.6 4.91-1.7l3.71 3.7 1.4-1.5ZM20 37.55c-3.31 0-6.02-2.7-6.02-6a6.03 6.03 0 0 1 12.03 0c0 3.3-2.7 6-6.01 6Z" 
               fill="#000"/></svg>
+            </a>
           <li class="navigation-item">
-            <a class="navigation-link" href="#"><span class="visually-hidden">Избранное</span></a>
-            <img class="navigation-user-img" src="images/index/favorite.svg" width="18" height="17" alt="favorite">
+            <a class="navigation-link" href="#"><span class="visually-hidden">Избранное</span>
+              <svg width="19" height="17" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.444 17c-.301 0-.602-.1-.802-.4-5.416-6.1-6.72-7.5-7.02-7.9C.92 7.8.519 6.6.519 5.4c0-3 
+                2.406-5.4 5.515-5.4 1.304 0 2.507.5 3.51 1.3C10.547.5 11.851 0 13.054 0c3.008 0 5.516 2.4 5.516 5.4 0 1.3-.502 2.5-1.304 3.4l-7.02 
+                7.9c-.2.2-.401.3-.802.3ZM3.427 7.5c.3.4 3.51 4 6.117 6.9l6.218-7c.501-.5.702-1.2.702-2 0-1.8-1.505-3.3-3.31-3.3-1.002 0-2.005.5-2.707 
+                1.3-.301.3-.602.4-.903.4-.3 0-.602-.2-.802-.4-.702-.8-1.705-1.3-2.708-1.3-1.805 0-3.31 1.5-3.31 3.3-.1.9.302 1.6.703 2.1-.1 0-.1 0 0 0Z" fill="#000"/></svg>
+              </a>
+              <span class="navigation-favorite"><img class="navigation-user-img-favorite" src="images/index/favorite-plus.svg" width="20" height="20" alt="favorite"></span>
           </li>
           <li class="navigation-item">
             <a class="navigation-link" href="#">Хочу сюда!</a>
@@ -51,27 +57,27 @@
         <ul class="advantages-list">
           <li class="advantages-item advantages-item-ful">
             <div class="advantages-item-text bg-dark-blue">
-              <p class="advantages-title">Настоящий городок</p>
+              <p class="advantages-title">Настоящий <br> городок</p>
               <p class="advantages-number">- №1 -</p>
               <p class="advantages-description">Седона — не аттракцион<br> для туристов, там течёт<br> своя жизнь</p>
             </div>
               <img class="advantages-foto" src="images/index/photo-1.jpg" width="800" height="384"
                 alt="Фото городка Седона">
                   <ul class="advantages-features">
-                    <li class="advantages-item bg-light-blue">
+                    <li class="advantages-item bg-light-blue advantages-item-house">
                       <img class="advantages-icon-house" src="images/index/icon-house.svg" width="74" height="72"
                         alt="Иконка Домик">
                     <p class="advantages-title">Жильё</p>
                     <p class="advantages-description">Рекомендуем пожить<br> в настоящем мотеле,<br> всё как в кино!</p>
               </li>
-              <li class="advantages-item bg-none">
+              <li class="advantages-item bg-none advantages-item-food">
                 <img class="advantages-icon-food" src="images/index/icon-food.svg" width="73" height="70"
                   alt="Иконка Гамбургер">
                 <p class="advantages-title">Еда</p>
                 <p class="advantages-description">Всегда заказывайте<br> топовый фирменный бургер,<br> вы не разочаруетесь!
                 </p>
               </li>
-              <li class="advantages-item bg-light-blue">
+              <li class="advantages-item bg-light-blue advantages-item-souvenirs">
                 <img class="advantages-icon-souvenirs" src="images/index/icon-souvenirs.svg" width="64" height="75"
                   alt="Иконка Подарок">
                 <p class="advantages-title">Сувениры</p>
@@ -111,9 +117,9 @@
         </li>
         </ul>
         <section class="search-container">
-          <h3 class="search-title">заинтересовались?</h3>
+          <h3 class="search-title">Заинтересовались?</h3>
           <p class="search-description">Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-          <button class="button" type="button">Поиск гостиницы в Седоне</button>
+          <a class="search-container button" href="catalog.html"></span><button class="button" type="button">Поиск гостиницы в Седоне</button></a>
         </section>
         <section class="subscribe-bg">
           <h3>подпишитесь на рассылку</h3>
@@ -130,22 +136,25 @@
       <section class="footer-social">
         <ul class="footer-social-list">
           <li class="footer-social-item">
-            <a class="button" href="https://twitter.com/htmlacademy_ru"> </a>
+            <a class="button" href="https://twitter.com/htmlacademy_ru"> 
               <svg width="18" height="15" viewBox="0 0 18 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M11.6 0.200056C13.4 -0.299944 14.8 0.500056 15.4 1.40006C16.1 1.20006 16.8 0.900056 17.5 0.700056C17.5 1.60006 16.9 2.20006 16.6 2.50006C17.3 2.60006 18 1.90006 18 1.90006C17.8 2.90006 16.9 3.70006 16.3 3.90006C16.1 10.7001 13 15.1001 5.7 15.0001C5.1 15.0001 5.8 15.0001 5.2 15.0001C4.8 15.0001 0.8 14.5001 0 13.1001C2.4 13.3001 4.1 12.7001 5 11.9001C4 11.6001 2.1 11.5001 1.8 9.00006C2.2 9.10006 2.4 9.20006 3.1 9.10006C1.8 8.30006 0.4 7.50006 0.5 5.30006C0.8 5.60006 1.6 5.80006 1.9 5.80006C1.1 5.60006 -0.2 2.50006 0.9 0.900056C2.8 2.80006 4.9 4.50006 8.5 4.70006C8.7 2.30006 9.7 0.800056 11.6 0.200056Z" fill="#83B3D3"/>
                 </svg>
+              </a>
           </li>
           <li class="footer-social-item">
-            <a class="button" href="https://www.facebook.com/htmlacademy"></a>
+            <a class="button" href="https://www.facebook.com/htmlacademy">
               <svg width="10" height="18" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M7 0C4.8 0 3 1.8 3 4V6H0V10H3V18H7V10H10V6H7V4H10V0H7Z" fill="#83B3D3"/>
                 </svg>
+              </a>
           </li>
           <li class="footer-social-item">
-            <a class="button" href="https://www.youtube.com/c/HTMLAcademyRUS"></a>
+            <a class="button" href="https://www.youtube.com/c/HTMLAcademyRUS">
               <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M17 0H2.9C1.2 0 0 1.5 0 3.2V12.7C0 14.5 1.2 16 2.9 16H17.2C18.7 16 20.1 14.5 20.1 12.8V3.2C19.9 1.5 18.7 0 17 0ZM7 11.8V4.2L13.7 8L7 11.8Z" fill="#83B3D3"/>
                 </svg>
+              </a>
           </li>
         </ul>
         </section>
